@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}<title>grid</title>{% endblock %}
+{% block body %}
+	<section id="inner-headline">
+	<!--<div class="container">-->
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="pageTitle"><br/></h2>
+			</div>
+		</div>
+	<!--</div>-->
+	</section>
+
+
+	<section id="content">
+
+	<div class="container">
+
+	<section class="search-area">
+		<div class="sa-ele">
+			<label class="se-title">Model Name:</label>
+			<input class="se-con" name="title"/>
+		</div>
+		<div class="sa-ele">
+			<button class="search-action">Search</button>
+			<button class="reset-action">Reset</button>
+		</div>
+	</section>
+
+	<section class="grid-main">
+		<table></table>
+	</section>
+         <script type="text/javascript" src="/static/gridmanager/demo/js/grid.js"></script>
+	</div>
+	</section>
+
+{% endblock %}

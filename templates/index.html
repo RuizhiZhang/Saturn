@@ -1,0 +1,73 @@
+
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block body %}
+	<!-- end header -->
+	<!--<section id="banner">-->
+
+
+<!-- Slider -->
+<div id="main-slider" class="flexslider">
+	<ul class="slides">
+	  <li>
+		<img src="/static/img/slides/head1.jpg" alt="" />
+
+		<div class="flex-caption" style="top:25%">
+			<h3><font face='Arial Narrow'>Main Title</font><br/><br/></h3>
+
+		</div>
+
+	  </li>
+	</ul>
+    <div id="dataNums"> </div>
+</div>
+<script>
+    $(function(){
+        $("#dataNums").rollNumDaq({
+            deVal:{{results}}
+        });
+
+    });
+</script>
+
+  <br/>
+<section class="stats_info w3l-features py-2" style="background-color:white" id="BENCHMARK2">
+<div class="row" style="margin-left:100px;margin-right:100px" >
+                    
+					<div class="stats_info col grids-1 box-wrap">
+					    <a href="" target ="_blank" class="title-head">
+                        <img src="/static/img/.PNG"  style="float:middle">
+                        <h4><a href="" target ="_blank" class="title-head"><font color=#0000cd>A</font></a></h4>
+                        <p>fdsfsdfs </p>
+						</a>
+                     </div>
+					 
+                     &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                    <div class="stats_info col grids-1 box-wrap">
+					    <a href="" target ="_blank" class="title-head">
+                        <img src="/static/img/.jpg"  style="float:center">
+                        <h4><a href="" target ="_blank" class="title-head"><font color=#0000cd>B</font></a></h4>
+                        <p>dfsdfs</p>
+						</a>
+                    </div>
+                     &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+
+</div>
+<br/>
+  <br/>
+
+</section>          
+          
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+      
+
+
+
+
+{% endblock %}
